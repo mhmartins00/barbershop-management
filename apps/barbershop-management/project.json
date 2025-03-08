@@ -40,7 +40,9 @@
           }
         ],
         "stylePreprocessorOptions": {
-          "includePaths": ["apps/barbershop-management/src/styles"]
+          "includePaths": [
+            "apps/barbershop-management/src/styles"
+          ]
         },
         "scripts": []
       },
@@ -63,7 +65,13 @@
         "development": {
           "optimization": false,
           "extractLicenses": false,
-          "sourceMap": true
+          "sourceMap": true,
+          "fileReplacements": [
+            {
+              "replace": "apps/barbershop-management/src/environments/environment.ts",
+              "with": "apps/barbershop-management/src/environments/environment.development.ts"
+            }
+          ]
         }
       },
       "defaultConfiguration": "production"

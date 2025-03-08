@@ -12,7 +12,8 @@
       "@shared/*": ["apps/barbershop-management/src/app/shared/*"],
       "@core/*": ["apps/barbershop-management/src/app/core/*"],
       "@domain/*": ["apps/barbershop-management/src/app/domain/*"],
-      "@widget/*": ["apps/barbershop-management/src/app/widget/*"]
+      "@widget/*": ["apps/barbershop-management/src/app/widget/*"],
+      "@env/*": ["apps/barbershop-management/src/environments/*"]
     },
     
   },
